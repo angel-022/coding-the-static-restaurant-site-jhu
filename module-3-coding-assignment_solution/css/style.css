@@ -6,7 +6,8 @@
   border: 2px solid #333;
   padding: 20px;
   margin: 20px 0;
-  height: 1000px; /* Make it tall enough to require scrolling */
+  height: 700px; /* Make it tall enough to require scrolling */
+  position: relative;
 }
 
 /* Page heading styling */
@@ -41,4 +42,31 @@ h1.text-center {
   margin-bottom: 20px;
   line-height: 1.6;
   font-size: 16px;
+}
+
+/* Section heading styling */
+.section-content h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Back to top link styling */
+.section-content a {
+  color: #337ab7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section-content a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .section-content {
+    margin-bottom: 30px;
+  }
 }
